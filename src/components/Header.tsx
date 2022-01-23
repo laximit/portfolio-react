@@ -7,7 +7,9 @@ import '../styles/header.scss'
 function Header() {
 	return (
 		<div className="header">
-			<img src={SourceIcon} alt="" className="header-button source-code" />
+			<a href="https://github.com/laximit/portfolio-react">
+				<img src={SourceIcon} alt="" className="header-button source-code" />
+			</a>
 			<span>&lt;Murilo Lobos/&gt;</span>
 			<img src={SunIcon} alt="" className="header-button change-theme" />
 		</div>

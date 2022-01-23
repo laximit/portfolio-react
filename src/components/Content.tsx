@@ -2,6 +2,7 @@ import React from "react";
 import Profile from "./Profile";
 import About from "./About";
 import Bio from "./Bio";
+import Knowledge from "./Knowledge";
 import '../styles/content.scss'
 
 function Content() {
@@ -10,6 +11,7 @@ function Content() {
       <Profile/>
       <About />
       <Bio />
+      <Knowledge />
     </div>
   )
 }
