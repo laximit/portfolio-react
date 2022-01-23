@@ -1,12 +1,21 @@
 .bio {
     display: flex;
-    align-items: center;
     width: 45rem;
     background-color: #e4e4e4;
     border-radius: 1rem;
     margin: .5rem 0;
     flex-direction: column;
-    span {
-        margin: 0 1rem 1rem 1rem;
+    .bio-item {
+        margin: 0rem 1rem 1rem 1rem;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        .bio-item__year {
+            font-family: 'Poppins', sans-serif;
+            margin-right: .5rem;
+            font-weight: bold;
+        }
     }
 }
