@@ -6,9 +6,20 @@
     left: 22rem;
     top: calc(72px + 1rem);
     width: calc(100vw - 22rem - 3rem);
-    height: calc(100vh - 1rem - 72px - 3rem);
+    height: calc(100vh - 1rem - 72px - 2rem);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1rem;
+    padding: .5rem 1rem;
+}
+
+.section-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    margin: 1rem 1rem .5rem 1rem;
+    div {
+        width: calc(45rem - 2rem);
+        background-color: #a3a3a3;
+        height: 5px;
+    }
 }

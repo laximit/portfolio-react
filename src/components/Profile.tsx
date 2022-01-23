@@ -1,6 +1,7 @@
 import React from "react";
 import ProfilePic from '../assets/profile.jpg'
 import '../styles/profile.scss'
+import Title from "./Title";
 
 function Profile() {
   return(

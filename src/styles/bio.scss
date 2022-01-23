@@ -1,0 +1,12 @@
+.bio {
+    display: flex;
+    align-items: center;
+    width: 45rem;
+    background-color: #e4e4e4;
+    border-radius: 1rem;
+    margin: .5rem 0;
+    flex-direction: column;
+    span {
+        margin: 0 1rem 1rem 1rem;
+    }
+}
