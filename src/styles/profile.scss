@@ -1,7 +1,8 @@
 .profile {
     display: flex;
     align-items: center;
-    width: 45rem;
+    width: 100%;
+    max-width: 45rem;
     background-color: #e4e4e4;
     border-radius: 1rem;
     margin: .5rem 0;
@@ -21,6 +22,43 @@
         .subtitle {
             font-size: 2rem;
             font-family: 'Raleway', sans-serif;
+        }
+    }
+}
+
+@media screen and (max-width: 635px) {
+    .profile {
+        flex-direction: column;
+        img {
+            width: 20rem;
+        }
+        div {
+            align-items: center;
+            margin-bottom: 1rem;
+            .title {
+                font-size: 3.5rem;
+            }
+            .subtitle {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .profile {
+        img {
+            width: 80%;
+        }
+        div {
+            align-items: center;
+            margin-bottom: 1rem;
+            .title {
+                font-size: 250%;
+            }
+            .subtitle {
+                font-size: 100%;
+            }
         }
     }
 }

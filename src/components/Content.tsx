@@ -3,6 +3,7 @@ import Profile from "./Profile";
 import About from "./About";
 import Bio from "./Bio";
 import Knowledge from "./Knowledge";
+import Social from "./Social";
 import '../styles/content.scss'
 
 function Content() {
@@ -12,6 +13,7 @@ function Content() {
       <About />
       <Bio />
       <Knowledge />
+      <Social />
     </div>
   )
 }
